@@ -2,7 +2,7 @@ var createError = require('http-errors');
 var express = require('express');
 
 //Set up mongoose connection
-var mongoose = requrie('mongoose');
+var mongoose = require('mongoose');
 var mongoDB = require('');
 mongoose.connect(mongoDB, { userNewUrlParser: true, useUnfiiedTopology: true});
 var db = mongoose.connection;
